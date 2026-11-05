@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+
+    <link rel="stylesheet" href="../../styles/base.css">
+    <link rel="stylesheet" href="../../styles/header.css">
+    <link rel="stylesheet" href="../../styles/game/game-page.css">
+    <link rel="stylesheet" href="../../styles/games-grid.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+    <link rel="stylesheet" href="../../styles/misc.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <body>
+        <!--------------------- HEADER ------------------------->
+
+        <header class="header-container container-full">
+            <div class="header container-xxl">
+                <a href="../../index.html" class="no-lined-text">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <img src="../../assets/logo.png" alt="Gamester" class="logo-img">
+                        </div>
+                        <h1 class="logo-text" data-text="Gamester">
+                            <span>Game</span>ster
+                        </h1>
+                    </div>
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="nav-list-item" href="../../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-list-item" href="#">Trending</a>
+                        </li>
+                        <li>
+                            <a class="nav-list-item" href="#">Reviews</a>
+                        </li>
+                        <li>
+                            <a class="nav-list-item" href="#">Games</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="join-button">
+                    Join the community
+                </button>
+
+                <button class="menu-ham">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <section class="side-menu">
+                    <nav class="nav-side-bar">
+                        <ul class="nav-list-side-bar">
+                            <li>
+                                <a class="nav-list-item item-side-bar" href="../../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-list-item item-side-bar" href="#">Trending</a>
+                            </li>
+                            <li>
+                                <a class="nav-list-item item-side-bar" href="#">Reviews</a>
+                            </li>
+                            <li class="last-li">
+                                <a class="nav-list-item item-side-bar" href="#">Games</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </header>
+
+        <!---------------------- MAIN -------------------------->
+
+        <main class="main container-full fade-in-objects">
+            <section class="game-container">
+                <div class="game-banner"></div>
+                <div class="game-info container-xxl">
+                    <div class="column-1">
+                        <div class="game-pic">
+                            <img src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7zzj.webp" alt="portada1">
+                        </div>
+                        <div class="hidden-game-info">
+                            <div class="game-title">
+                                <p>Half Life 3</p>
+                                <p class="game-title-date">Nov. 19, 1998</p>
+                            </div>
+                            <div class="game-title">
+                                <p class="game-title-developer">Developed by <span class="company-name">Valve
+                                        Corporation</span></p>
+                            </div>
+                            <div class="game-description">
+                                <p>Half-Life is a 1998 first-person shooter (FPS) game developed by Valve Corporation
+                                    and
+                                    published by Sierra Studios for Windows. It was Valve's debut product and the first
+                                    game
+                                    in the Half-Life series. The player assumes the role of Gordon Freeman, a
+                                    theoretical
+                                    physicist who must escape from the Black Mesa Research Facility after it is overrun
+                                    by
+                                    aliens following a disastrous scientific experiment. Its gameplay consists of
+                                    diverse
+                                    combat, exploration and puzzles.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="responsive-change-to-row">
+                            <div class="game-actions">
+                                <button class="log-button">Log and Review</button>
+                                <div class="stars-container">
+                                    <i class="star-icon fa-solid fa-star"></i>
+                                    <i class="star-icon fa-solid fa-star"></i>
+                                    <i class="star-icon fa-solid fa-star"></i>
+                                    <i class="star-icon fa-solid fa-star"></i>
+                                    <i class="star-icon fa-solid fa-star"></i>
+                                </div>
+                                <div class="user-states">
+                                    <div class="state-container">
+                                        <i class="state-icon fa-solid fa-gamepad"></i>
+                                        <p class="state-text">Played</p>
+                                    </div>
+                                    <div class="state-container">
+                                        <i class="state-icon fa-solid fa-play"></i>
+                                        <p class="state-text">Playing</p>
+                                    </div>
+                                    <div class="state-container">
+                                        <i class="state-icon fa-solid fa-bookmark"></i>
+                                        <p class="state-text">Wishlist</p>
+                                    </div>
+                                </div>
+                                <button class="add-to-list-button"><i class="fa-solid fa-list-ul"></i> Add to
+                                    list</button>
+                            </div>
+                            <div class="platforms-box">
+                                <p class="state-text platforms-text lined-text">Platforms</p>
+                                <div class="platform-row">
+                                    <img src="../../assets/game-page/platform-logos/pc-logo.webp" alt="PC"
+                                        class="platforms-image">
+                                    <a href="https://store.steampowered.com/app/70/HalfLife/" target="_blank"
+                                        class="state-text platforms-text">Steam</a>
+                                </div>
+                                <div class="platform-row">
+                                    <img src="../../assets/game-page/platform-logos/ps-logo.webp" alt="PC"
+                                        class="platforms-image">
+                                    <p class="state-text platforms-text">PS2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-2">
+                        <div class="game-title responsive-dissapear">
+                            <p>Half Life 3</p>
+                            <p class="game-title-date">Nov. 19, 1998</p>
+                        </div>
+                        <div class="game-title responsive-dissapear">
+                            <p class="game-title-developer">Developed by <span class="company-name">Valve
+                                    Corporation</span></p>
+                        </div>
+                        <div class="game-description responsive-dissapear">
+                            <p>Half-Life is a 1998 first-person shooter (FPS) game developed by Valve Corporation and
+                                published by Sierra Studios for Windows. It was Valve's debut product and the first game
+                                in the Half-Life series. The player assumes the role of Gordon Freeman, a theoretical
+                                physicist who must escape from the Black Mesa Research Facility after it is overrun by
+                                aliens following a disastrous scientific experiment. Its gameplay consists of diverse
+                                combat, exploration and puzzles.
+                            </p>
+                        </div>
+                        <div class="other-info-box">
+                            <div class=gradient-lined-text>
+                                <div class="other-info-header">
+                                    <p>Rating</p>
+                                    <p>Game Time</p>
+                                    <p>Other Info</p>
+                                </div>
+                            </div>
+                            <div class="other-info-body">
+                                <img src="../../assets/game-page/other-info/histogram.png" alt="Grafico reviews"
+                                    class="review-graph">
+                                <div class="review-info">
+                                    <p class="state-text review-number">4.3</p>
+                                    <p class="state-text">From 3.2K Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-column container-xxl">
+                    <div class="details-header state-text gradient-lined-text">
+                        <p class="selected-text">Reviews</p>
+                        <p class="section-text">Media</p>
+                        <p class="section-text">Series</p>
+                        <p class="section-text">Community</p>
+                    </div>
+                    <div class="review-container">
+                        <div class="details-header state-text gradient-lined-text">
+                            <p class="selected-text">Popular</p>
+                            <p class="section-text">Recent</p>
+                            <p class="section-text">Friends</p>
+                        </div>
+                        <div class="review-box">
+                            <img src="../../assets/game-page/review/quiensera.webp" alt="Reviewer1" class="mini-pfp">
+                            <div class="review-content">
+                                <p class="state-text">Review by Jose Riquelme Joe Metry</p>
+                                <div class="reviewed-stars">
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="grey-star fa-solid fa-star"></i>
+                                    <i class="grey-star fa-solid fa-star"></i>
+                                    <i class="grey-star fa-solid fa-star"></i>
+                                </div>
+                                <p class="state-text review-text">Masterpiece.</p>
+                                <div class="like-container">
+                                    <div class="image-with-text">
+                                        <img src="../../assets/game-page/review/like-hand.webp" alt="Mano like">
+                                        <p class="state-text like-text">Like</p>
+                                    </div>
+                                    <p class="like-counter">2 Likes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-box">
+                            <img src="../../assets/game-page/review/leonskratos.webp" alt="Reviewer2" class="mini-pfp">
+                            <div class="review-content">
+                                <p class="state-text">Review by Xx_LeonSKratos666_xX</p>
+                                <div class="reviewed-stars">
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="grey-star fa-solid fa-star"></i>
+                                </div>
+                                <p class="state-text review-text">Enriqueeeeeeeeeeeeeee.</p>
+                                <div class="like-container">
+                                    <div class="image-with-text">
+                                        <img src="../../assets/game-page/review/like-hand.webp" alt="Mano like">
+                                        <p class="state-text like-text">Like</p>
+                                    </div>
+                                    <p class="like-counter">154 Likes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-box">
+                            <img src="../../assets/game-page/review/juanpi.webp" alt="Reviewer1" class="mini-pfp">
+                            <div class="review-content">
+                                <p class="state-text">Review by juanpi</p>
+                                <div class="reviewed-stars">
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                    <i class="yellow-star fa-solid fa-star"></i>
+                                </div>
+                                <p class="state-text review-text">juanpi</p>
+                                <div class="like-container">
+                                    <div class="image-with-text">
+                                        <img src="../../assets/game-page/review/like-hand.webp" alt="Mano like">
+                                        <p class="state-text like-text">Like</p>
+                                    </div>
+                                    <p class="like-counter">99K Likes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="load-more-text">Load More...</p>
+                    </div>
+                </div>
+                <div class="main-box-container container-xxl">
+                    <div class="gradient-lined-text">
+                        <p>Similar Games</p>
+                    </div>
+                    <div class="box-container-games">
+                        <div class="game-box">
+                            <img width="262" height="349"
+                                src="https://images.igdb.com/igdb/image/upload/t_cover_big/co5rav.webp" alt="portada1">
+                            <span class="hidden-name">
+                                Doom
+                                <span class="hidden-year">(1993)</span>
+                            </span>
+                        </div>
+                        <div class="game-box">
+                            <img width="262" height="349"
+                                src="https://images.igdb.com/igdb/image/upload/t_cover_big/coc32b.webp" alt="portada1">
+                            <span class="hidden-name">
+                                Counter-Strike
+                                <span class="hidden-year">(2000)</span>
+                            </span>
+                        </div>
+                        <div class="game-box">
+                            <img width="262" height="349"
+                                src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3acf.webp" alt="portada1">
+                            <span class="hidden-name">
+                                Call of Duty 2
+                                <span class="hidden-year">(2005)</span>
+                            </span>
+                        </div>
+                        <div class="game-box">
+                            <img width="262" height="349"
+                                src="https://images.igdb.com/igdb/image/upload/t_cover_big/coay61.webp" alt="portada1">
+                            <span class="hidden-name">
+                                Portal
+                                <span class="hidden-year">(2007)</span>
+                            </span>
+                        </div>
+                        <div class="game-box">
+                            <img width="262" height="349"
+                                src="https://images.igdb.com/igdb/image/upload/t_cover_big/co9bg8.webp" alt="portada1">
+                            <span class="hidden-name">
+                                Quake II
+                                <span class="hidden-year">(1997)</span>
+                            </span>
+                        </div>
+                        <div class="game-box">
+                            <img width="262" height="349"
+                                src="https://images.igdb.com/igdb/image/upload/t_cover_big/co7xtx.webp" alt="portada1">
+                            <span class="hidden-name">
+                                Duke Nukem
+                                <span class="hidden-year">(1999)</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-xxl">
+                    <p class="dummy-text">(Aca abajo va lo de Popular and Your Lists)</p>
+                </div>
+            </section>
+        </main>
+
+        <!---------------------- FOOTER -------------------------->
+
+        <footer class="footer-container container-full">
+        <div class="footer container-xxl">
+            <div class="left-side-footer">
+                <nav class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li>
+                        <a class="nav-list-item" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-list-item" href="#">Privacy & Policy</a>
+                    </li>
+                    <li>
+                        <a class="nav-list-item" href="#">Donations</a>
+                    </li>
+                    </ul>
+                </nav>
+                <p class="rights">
+                    © 2026 Gamester. All rights reserved. Keep playing.
+                </p>
+            </div>
+            <div class="right-side-footer">
+                <i class="social-i fa-brands fa-instagram"></i>
+                <i class="social-i fa-brands fa-x-twitter"></i>
+                <i class="social-i fa-brands fa-reddit"></i>
+                <i class="social-i fa-brands fa-discord"></i>
+            </div>
+        </div>
+    </footer>
+
+        <script src="../../scripts/side-menu.js"></script>
+    </body>
+
+</html>
